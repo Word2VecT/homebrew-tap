@@ -1,6 +1,6 @@
 cask "flameshoter" do
-  version "0.1.0"
-  sha256 "0ccf23aab726c800e9deacaa1a970f8b3a130fd7ec2075144d37777f8208d878"
+  version "0.1.1"
+  sha256 "7139c476123be7ba7444e2d8d43d136135b734b0ebaf1be8e53af0c59f601d3e"
 
   url "https://github.com/Word2VecT/flameshoter/releases/download/v#{version}/Flameshoter-#{version}-macos-arm64.zip"
   name "Flameshoter"
