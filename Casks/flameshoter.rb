@@ -1,6 +1,6 @@
 cask "flameshoter" do
-  version "0.1.1"
-  sha256 "7139c476123be7ba7444e2d8d43d136135b734b0ebaf1be8e53af0c59f601d3e"
+  version "0.1.2"
+  sha256 "4e44666ea28dcea51214fdad07e15dc42dff78a4868bdf62fe34c1cf8c54db51"
 
   url "https://github.com/Word2VecT/flameshoter/releases/download/v#{version}/Flameshoter-#{version}-macos-arm64.zip"
   name "Flameshoter"
@@ -19,7 +19,8 @@ cask "flameshoter" do
 
   caveats <<~EOS
     Allow Screen Recording for Flameshoter when first taking a screenshot.
-    This initial release is ad hoc signed and is not notarized by Apple.
+    Official releases use a fixed self-signed certificate and are not notarized by Apple.
+    Upgrading from an older ad hoc signed release requires granting Screen Recording again once.
     If macOS blocks the first launch, use System Settings > Privacy & Security > Open Anyway.
   EOS
 end
